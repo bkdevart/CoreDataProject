@@ -13,6 +13,8 @@
 		CA5D94C1263637D8000F9F58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA5D94C0263637D8000F9F58 /* Preview Assets.xcassets */; };
 		CA5D94C3263637D8000F9F58 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D94C2263637D8000F9F58 /* Persistence.swift */; };
 		CA5D94C6263637D8000F9F58 /* CoreDataProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA5D94C4263637D8000F9F58 /* CoreDataProject.xcdatamodeld */; };
+		CA5D94D02636474B000F9F58 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D94CE2636474B000F9F58 /* Movie+CoreDataClass.swift */; };
+		CA5D94D12636474B000F9F58 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5D94CF2636474B000F9F58 /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CA5D94C2263637D8000F9F58 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		CA5D94C5263637D8000F9F58 /* CoreDataProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataProject.xcdatamodel; sourceTree = "<group>"; };
 		CA5D94C7263637D8000F9F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA5D94CE2636474B000F9F58 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CA5D94CF2636474B000F9F58 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		CA5D94B8263637D7000F9F58 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
+				CA5D94CE2636474B000F9F58 /* Movie+CoreDataClass.swift */,
+				CA5D94CF2636474B000F9F58 /* Movie+CoreDataProperties.swift */,
 				CA5D94B9263637D7000F9F58 /* CoreDataProjectApp.swift */,
 				CA5D94BB263637D7000F9F58 /* ContentView.swift */,
 				CA5D94BD263637D8000F9F58 /* Assets.xcassets */,
@@ -147,6 +153,8 @@
 				CA5D94C3263637D8000F9F58 /* Persistence.swift in Sources */,
 				CA5D94BC263637D7000F9F58 /* ContentView.swift in Sources */,
 				CA5D94C6263637D8000F9F58 /* CoreDataProject.xcdatamodeld in Sources */,
+				CA5D94D02636474B000F9F58 /* Movie+CoreDataClass.swift in Sources */,
+				CA5D94D12636474B000F9F58 /* Movie+CoreDataProperties.swift in Sources */,
 				CA5D94BA263637D7000F9F58 /* CoreDataProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
