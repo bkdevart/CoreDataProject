@@ -20,6 +20,10 @@ extension Movie {
     @NSManaged public var title: String?
     @NSManaged public var year: Int16
 
+    public var wrappedTitle: String {
+        return title ?? "Unknown title"
+    }
+    
 }
 
 extension Movie : Identifiable {
